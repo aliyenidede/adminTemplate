@@ -221,4 +221,13 @@ export default [
     name: 'apps-invoice-edit',
     component: () => import('@/views/apps/invoice/invoice-edit/InvoiceEdit.vue'),
   },
+
+  // *===============================================---*
+  // *--------- DASHBOARD -------------------------------------------*
+  // *===============================================---*
+  {
+    path: '/home',
+    name: 'apps-invoice-edit',
+    component: () => import('@/views/apps/invoice/invoice-edit/InvoiceEdit.vue'),
+  },
 ]

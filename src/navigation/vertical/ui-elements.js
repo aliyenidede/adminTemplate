@@ -1,49 +1,16 @@
 export default [
   {
-    header: 'User Interface',
+    header: 'Genel Ayarlar',
   },
   {
-    title: 'Typography',
-    route: 'ui-typography',
-    icon: 'TypeIcon',
+    title: 'Kullanıcılar',
+    icon: 'UserIcon',
+    route: 'apps-users-list',
   },
   {
-    title: 'Colors',
-    route: 'ui-colors',
-    icon: 'DropletIcon',
-  },
-  {
-    title: 'Feather',
-    route: 'ui-feather',
-    icon: 'EyeIcon',
-  },
-  {
-    title: 'Cards',
-    icon: 'CreditCardIcon',
-    tag: 'new',
-    tagVariant: 'light-success',
-    children: [
-      {
-        title: 'Basic',
-        route: 'card-basic',
-      },
-      {
-        title: 'Advance',
-        route: 'card-advance',
-      },
-      {
-        title: 'Statistics',
-        route: 'card-statistic',
-      },
-      {
-        title: 'Analytics',
-        route: 'card-analytic',
-      },
-      {
-        title: 'Card Actions',
-        route: 'card-action',
-      },
-    ],
+    title: 'Ayarlar',
+    icon: 'SettingsIcon',
+    route: 'pages-account-setting',
   },
   {
     title: 'Components',
@@ -176,83 +143,6 @@ export default [
       {
         title: 'Tooltip',
         route: 'components-tooltip',
-      },
-    ],
-  },
-  {
-    title: 'Extensions',
-    icon: 'PlusCircleIcon',
-    children: [
-      {
-        title: 'Sweet Alert',
-        route: 'extensions-sweet-alert',
-      },
-      {
-        title: 'Toastification',
-        route: 'extensions-toastification',
-      },
-      {
-        title: 'Slider',
-        route: 'extensions-slider',
-      },
-      {
-        title: 'Drag & Drop',
-        route: 'extensions-drag-and-drop',
-      },
-
-      {
-        title: 'Tour',
-        route: 'extensions-tour',
-      },
-
-      {
-        title: 'Clipboard',
-        route: 'extensions-clipboard',
-      },
-      {
-        title: 'Context Menu',
-        route: 'extensions-context-menu',
-      },
-
-      {
-        title: 'Swiper',
-        route: 'extensions-swiper',
-      },
-
-      // {
-      //   title: 'Tree',
-      //   route: 'extensions-tree',
-      // },
-
-      {
-        title: 'I18n',
-        route: 'extensions-i18n',
-      },
-    ],
-  },
-  {
-    title: 'Page Layouts',
-    icon: 'LayoutIcon',
-    children: [
-      {
-        title: 'Collapsed Menu',
-        route: 'page-layout-collapsed-menu',
-      },
-      {
-        title: 'Layout Boxed',
-        route: 'page-layout-boxed-layout',
-      },
-      {
-        title: 'Without Menu',
-        route: 'page-layout-without-menu',
-      },
-      {
-        title: 'Layout Empty',
-        route: 'page-layout-layout-empty',
-      },
-      {
-        title: 'Layout Blank',
-        route: 'page-layout-layout-blank',
       },
     ],
   },
